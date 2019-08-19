@@ -4,7 +4,7 @@
 
 const snyk = require('@snyk/nodejs-runtime-agent')
 snyk({
-  projectId: process.env.SNYK_PROJECT_ID,
+  projectId: 'b249b1db-7431-4802-abaa-d100c6ba2cca',
 });
 
 // mongoose setup
