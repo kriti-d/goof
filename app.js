@@ -71,6 +71,10 @@ if (app.get('env') == 'development') {
   app.use(errorHandler());
 }
 
+if('var' == 1) {
+  console.log('Should use string equals method here')
+}
+
 var token = 'SECRET_TOKEN_f8ed84e8f41e4146403dd4a6bbcea5e418d23a9';
 console.log('token: ' + token);
 
