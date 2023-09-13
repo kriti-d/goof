@@ -1,2 +1,2 @@
-title: This PR fixes - Count of Issues: {{ issue_count }} 
+title: This PR fixes Issues - Count of Issues: {{ issue_count }} 
 branchName: fix/{{ issue_count }}-issues
