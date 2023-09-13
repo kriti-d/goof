@@ -1,1 +1,3 @@
-title: "security: Fix for {{ issue_count }} issues"
+title: "Snyk {{ snyk_pull_request_type }} PR (addresses {{ issue_count}} issues)"
+commitMessage: "fix: {{ issue_count}} Snyk issues"
+branchName: "security/{{ issue_count}}-issues"
