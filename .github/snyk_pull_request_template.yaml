@@ -1,2 +1,2 @@
-title: This PR fixes Issues - Count of Issues: {{ issue_count }} 
-branchName: fix/{{ issue_count }}-issues
+title: "Snyk {{ snyk_pull_request_type }} PR ( addresses {{ issue_count }} issues" 
+branchName: "security/{{ issue_count }}-issues"
