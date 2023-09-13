@@ -1,14 +1,2 @@
 title: This PR fixes - Count of Issues: {{ issue_count }} 
 branchName: fix/{{ issue_count }}-issues
-
-description: |
-  {{ #is_upgrade_pr }}
-  This PR has been opened to make sure our repositories are kept up-to-date.
-  It updates {{ package_name }} from version {{ package_from }} to version {{ package_to }}.
-  Review relevant docs for possible breaking changes.
-  {{ /is_upgrade_pr }}
-  
-  **Tickets**
-  {{ #jira_ids }}
-  
-  To find more details, see the Snyk project [{{ snyk_project_name }}]({{ snyk_project_url }})
