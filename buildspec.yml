@@ -18,3 +18,4 @@ phases:
       - npm install
       - npm test  # Run your unit tests, etc
       - snyk-jira-sync-linux -orgID="${SNYK_ORG_ID}" -token="${SNYK_TOKEN}" -jiraProjectID="${JIRA_PROJECT_ID}" -severity=high
+
